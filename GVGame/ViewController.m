@@ -30,7 +30,7 @@
     UIImageView *imageView = [[UIImageView alloc]initWithImage:image];
     [self.view addSubview:imageView];
     imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight ;
-    
+    //gv
     [self startGame];
 }
 

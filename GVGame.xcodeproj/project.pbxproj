@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					494D24DE20431698004FBAF5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G3G9SFK8K9;
 					};
 					494D24F720431698004FBAF5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -431,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3G9SFK8K9;
 				INFOPLIST_FILE = GVGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VG.GVGame;
@@ -442,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3G9SFK8K9;
 				INFOPLIST_FILE = GVGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VG.GVGame;
