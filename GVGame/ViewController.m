@@ -38,6 +38,7 @@
 //AB
 - (void)startGame {
     self.tagNum = 0;
+    //boaib
     UIView * basicView = [[UIView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width / 2 - 186 / 2,self.view.bounds.size.height / 2 - 246 / 2 , 185, 246)];
     [self.view addSubview:basicView];
     basicView.tag = 1;
