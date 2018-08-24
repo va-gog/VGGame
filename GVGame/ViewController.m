@@ -30,11 +30,11 @@
     UIImageView *imageView = [[UIImageView alloc]initWithImage:image];
     [self.view addSubview:imageView];
     imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight ;
-    //gv
+          //gv
     [self startGame];
 }
 
-//amen angam xax@ skselis kanchvum e ays funkcian/// nayev alertic heto ete sexmum en PLAY AGAIN:
+    //amen angam xax@ skselis kanchvum e ays funkcian/// nayev alertic heto ete sexmum en PLAY AGAIN:
 //AB
 - (void)startGame {
     self.tagNum = 0;
