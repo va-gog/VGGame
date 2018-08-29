@@ -30,18 +30,17 @@
     UIImageView *imageView = [[UIImageView alloc]initWithImage:image];
     [self.view addSubview:imageView];
     imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight ;
-          //gv
+    
     [self startGame];
 }
 
-    //amen angam xax@ skselis kanchvum e ays funkcian/// nayev alertic heto ete sexmum en PLAY AGAIN:
-//AB
+//amen angam xax@ skselis kanchvum e ays funkcian/// nayev alertic heto ete sexmum en PLAY AGAIN:
 - (void)startGame {
     self.tagNum = 0;
     UIView * basicView = [[UIView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width / 2 - 186 / 2,self.view.bounds.size.height / 2 - 246 / 2 , 185, 246)];
     [self.view addSubview:basicView];
     basicView.tag = 1;
-//CD
+    
     basicView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
     basicView.layer.borderWidth = 2;
     [basicView.layer setBorderColor:[UIColor colorWithRed:0.3 green:0.5 blue:0.3 alpha:1].CGColor];
