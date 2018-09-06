@@ -33,6 +33,7 @@
     imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight ;
     
     [self startGame];
+    //jvjvlvyvlvyyvlyuvyv
 }
 
 //amen angam xax@ skselis kanchvum e ays funkcian/// nayev alertic heto ete sexmum en PLAY AGAIN:
